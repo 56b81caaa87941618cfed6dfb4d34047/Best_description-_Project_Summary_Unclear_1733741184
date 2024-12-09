@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "ProjectX",
+        "HERO_HEADING_TEXT": "Innovative Solutions for Tomorrow's Challenges",
+        "HERO_SUBHEADING_TEXT": "Empowering users with cutting-edge technology to solve complex problems",
+        "FOOTER_TEXT": "\u00a9 2023 ProjectX. All rights reserved. Transforming ideas into reality."
+    }
+}
