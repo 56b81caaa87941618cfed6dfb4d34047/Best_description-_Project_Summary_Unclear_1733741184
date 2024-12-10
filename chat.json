@@ -67,5 +67,15 @@
         "source": "base_assistant",
         "content": "The header currently displays the text \"ProjectX\". How would you like to proceed?",
         "metadata": {}
+    },
+    {
+        "id": "ed9a859b-3034-455b-a73e-99804f2eb6e5",
+        "timestamp": "2024-12-10T20:47:04.571944Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does it say on the header?",
+        "metadata": {
+            "component_id": "Hero1733741187"
+        }
     }
 ]
