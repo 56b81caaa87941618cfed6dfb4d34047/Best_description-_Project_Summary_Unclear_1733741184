@@ -24,5 +24,48 @@
         "source": "base_assistant",
         "content": "It seems like there was a typo in your request. Could you clarify if you want to change the background color to red?",
         "metadata": {}
+    },
+    {
+        "id": "f6195031-829a-42f0-b8c1-4c51501a75b8",
+        "timestamp": "2024-12-10T18:35:52.022455Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does it say on the header?",
+        "metadata": {
+            "component_id": "Hero1733741187"
+        }
+    },
+    {
+        "id": "4f8af9c2-eb32-4c2a-8d40-ac2baaba59ee",
+        "timestamp": "2024-12-10T18:35:53.743738Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_G4ofBSP1v2S2m8BTpResUnAj",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733741187\"}",
+                "name": "ReadComponentCode"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "0f9360c2-23d5-42af-9c2d-a68125ad20f9",
+        "timestamp": "2024-12-10T18:35:53.847302Z",
+        "role": "tool_result",
+        "source": "ReadComponentCode",
+        "content": "import React from 'react';\n\nconst Header: React.FC = () => {\n  return (\n    <header className=\"bg-blue-500 text-white p-4 w-full h-full\"> {/* Full width and height */}\n      <div className=\"container mx-auto flex justify-between items-center h-full\">\n        <div className=\"text-2xl font-bold\">ProjectX</div>\n      </div>\n    </header>\n  );\n};\n\nexport { Header as component };",
+        "metadata": {
+            "tool_call_id": "call_G4ofBSP1v2S2m8BTpResUnAj"
+        }
+    },
+    {
+        "id": "c33e66d5-208a-4f9d-b1f9-e8dae59583eb",
+        "timestamp": "2024-12-10T18:35:54.781776Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header currently displays the text \"ProjectX\". How would you like to proceed?",
+        "metadata": {}
     }
 ]
