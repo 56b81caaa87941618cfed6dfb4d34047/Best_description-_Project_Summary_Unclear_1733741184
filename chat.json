@@ -24,5 +24,15 @@
         "source": "base_assistant",
         "content": "It seems like there was a typo in your request. Could you clarify if you want to change the background color to red?",
         "metadata": {}
+    },
+    {
+        "id": "f6195031-829a-42f0-b8c1-4c51501a75b8",
+        "timestamp": "2024-12-10T18:35:52.022455Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does it say on the header?",
+        "metadata": {
+            "component_id": "Hero1733741187"
+        }
     }
 ]
