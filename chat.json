@@ -85,5 +85,23 @@
         "source": "base_assistant",
         "content": "The header displays the text \"ProjectX\". How would you like to proceed from here?",
         "metadata": {}
+    },
+    {
+        "id": "a257712f-db26-4cc0-9cf6-15c8c742b20d",
+        "timestamp": "2024-12-12T02:19:02.033293Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "./src/assets/images/Screenshot 2024-11-04 at 2.21.47\u202fPM.jpeg",
+        "metadata": {
+            "component_id": "Hero1733741187"
+        }
+    },
+    {
+        "id": "f4d22c28-54f6-4176-9256-dcb0df747423",
+        "timestamp": "2024-12-12T02:19:03.909381Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Would you like to use the image \"Screenshot 2024-11-04 at 2.21.47\u202fPM.jpeg\" in your project? If so, please specify where you would like it placed.",
+        "metadata": {}
     }
 ]
